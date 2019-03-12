@@ -22,16 +22,6 @@
 	
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h3>Registro Docente</h3><hr>
     <div class="row">
         <div class="col col-lg-6 col-md-offset-3 ">
         <form method="post" action="registrarUsuario.php">
@@ -64,5 +54,3 @@
             </form>
         </div>
     </div>
-</body>
-</html>

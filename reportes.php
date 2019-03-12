@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>reportes</title>
-	<link rel="stylesheet" href="">
-
 	<script>
 	var id='';
 	var ap='';
@@ -155,28 +147,7 @@
 		})
 	</script>
 
-	<style>
-		#Dpersonales{
-			border-right:1px solid #5D5656;
-			text-align: left;
-		}
-		#for_Bdocente{
-			width: 260px;
-		}
-		#datos{
-			background:#77A6EC;
-			padding: 5px;
-		}
-		tr:hover{
-			background: #C0E2FF;
-		}
-		#buscar_individual{
-			text-align: left;
-		}
-	</style>
-</head>
-
-<body>
+	
 	<div class="container-fluid">
 		<div class="row"><h3>BUSCAR DOCENTE</h3></div>
 		<div class="row">
@@ -237,5 +208,3 @@
 			<button id='btn_print' class='btn btn-success'>Imprimir Reporte General</button>
 		</div>
 	</div>
-</body>
-</html>
