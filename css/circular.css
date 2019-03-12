@@ -1,0 +1,125 @@
+body{
+	background: #2B2626;
+	background: url(../img/fondo3.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+#nombre{
+	margin-top: -150px;
+	font-size: 40px;
+	color: #fff;
+	text-shadow:5px 5px 8px #1414B8;
+}
+#container{
+	width:300px;
+	margin: 150px auto;
+}
+
+#menu{
+	height: 300px;
+	width: 300px;
+}
+
+#centro{
+
+	background-image: url(../img/mejilloness.png);
+	background-size: 150px 250px;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	height: 300px;
+	position: relative;
+	width: 300px;
+
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	-o-border-radius: 300px;
+	border-radius: 300px;
+
+}
+#centro:hover{
+	background-size: 200px 300px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+
+.item{
+	background-color: #53DDF6;
+	height: 100px;
+	position: absolute;
+	width: 100px;
+	margin: 100px;
+	opacity: 0;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+
+}
+.item:hover{
+	background:#5A5653;
+	-webkit-box-shadow: 0 0 50px blue;
+	-moz-box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	box-shadow: 0 0 50px blue;
+	cursor:pointer;
+
+}
+span{
+	border: 0;
+	margin: 25px;
+	font-size: 50px;
+}
+.item a{
+	text-decoration: none;
+	color: #060606;
+
+}
+.titulo{
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	margin-top:-130px;
+	opacity: 0;
+	
+	text-align: center;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+.item:hover .titulo{
+	opacity: 0.8;
+}
+#centro:hover .item{
+	opacity: 1;
+}
+#centro:hover .item:nth-child(1){
+	margin: -100px 0 0 100px;
+}
+#centro:hover .item:nth-child(2){
+	margin: 22px 0 0 -85px;
+}
+#centro:hover .item:nth-child(3){
+	margin: 22px 0 0 286px;
+}
+#centro:hover .item:nth-child(4){
+	margin: 216px 0 0 -65px;
+}
+#centro:hover .item:nth-child(5){
+	margin: 216px 0 0 265px;
+}
